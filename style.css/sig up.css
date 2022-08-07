@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+
+}
+.h1{
+   font-size: 30px; 
+   margin: 35px 0px 20px 0px;
+}
+.inputs{
+   width: 100%;
+}
+.input h4{
+   margin: 10px 0px 5px 0px;
+}
+.put {
+   background-color: white;
+   padding: 10px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.put input {
+   outline: none;
+   border: 1px solid white;
+}
+.check {
+ display: grid;
+ grid-template-columns: 0.1fr 5fr;
+ gap: 10px;
+ margin: 10px 0px 20px 0px;
+   
+}
+.check p {
+line-height: 20px;
+   
+}
+.check a {
+color: blueviolet;
+font-weight: bold;
+text-decoration-line: underline;
+   
+}
+.btn {
+background-color: blueviolet;
+padding: 15px 20px;
+text-align: center;
+margin-bottom: 20px;
+  
+}
+.btn button{
+outline: none;
+background-color: blueviolet;
+border: 1px solid blueviolet;
+color: white;
+font-weight: bold;
+  
+}
+.lastp{
+font-size: 16px;
+text-align: center;
+  
+}
+.aligned{
+display: none;
+  
+}
+@media  ( min-width:768px ) {
+    .general{
+display: grid;
+grid-template-columns: 1fr 1fr;
+  
+}
+.aligned{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: blueviolet;
+height: 100vh;
+text-align: center;
+}
+.aligne{
+padding-right: 15%;
+padding-left: 15%;
+
+  
+}
+.aligne h1{
+font-size: 30px;
+margin: 10px auto;
+color: white;
+  
+}
+.aligne p{
+font-size: 20px;
+color: white;
+  
+}
+.signt img{
+width: 100%;
+margin: auto;
+  
+}
+.dots{
+display: flex;
+gap: 1rem;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+  
+}
+.dot{
+width: 15px;
+height: 15px;
+background-color: white;
+border-radius: 50%;
+  
+}
+    
+}
+
+
