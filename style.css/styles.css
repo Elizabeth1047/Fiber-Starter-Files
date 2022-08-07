@@ -219,6 +219,7 @@ a{
 @media (min-width: 768px) {
     .herostar{
     display: flex;
+    margin-bottom: 50px;
     
 }
    .porfiolio{
